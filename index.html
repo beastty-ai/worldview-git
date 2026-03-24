@@ -3,10 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Interface</title>
+    <title>World Board Engine</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to the Worldview Git Interface</h1>
-    <p>This is the main HTML interface.</p>
+    <header>
+        <h1>World Board Engine</h1>
+    </header>
+    <main>
+        <canvas id="worldCanvas"></canvas>
+    </main>
+    <div id="modal">
+        <p>This is a modal</p>
+        <button onclick="closeModal()">Close</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
